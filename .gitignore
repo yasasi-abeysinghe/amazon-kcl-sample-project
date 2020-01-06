@@ -1,0 +1,11 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# any packs that would be included
+*.exe
+*.tar.gz
+*.zip
+
+target/
+dependency-reduced-pom.xml

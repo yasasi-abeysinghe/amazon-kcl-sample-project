@@ -1,0 +1,114 @@
+{
+  "type" : "array",
+  "items" : {
+    "type" : "record",
+    "name" : "test",
+    "fields" : [ {
+      "name" : "_id",
+      "type" : "string",
+      "doc" : "Type inferred from '\"5dbafb6b89de5a8ba50d33c5\"'"
+    }, {
+      "name" : "index",
+      "type" : "int",
+      "doc" : "Type inferred from '0'"
+    }, {
+      "name" : "guid",
+      "type" : "string",
+      "doc" : "Type inferred from '\"a0ed5376-2943-440a-851e-92a3f8a99462\"'"
+    }, {
+      "name" : "isActive",
+      "type" : "boolean",
+      "doc" : "Type inferred from 'true'"
+    }, {
+      "name" : "balance",
+      "type" : "string",
+      "doc" : "Type inferred from '\"$3,829.60\"'"
+    }, {
+      "name" : "picture",
+      "type" : "string",
+      "doc" : "Type inferred from '\"http://placehold.it/32x32\"'"
+    }, {
+      "name" : "age",
+      "type" : "int",
+      "doc" : "Type inferred from '24'"
+    }, {
+      "name" : "eyeColor",
+      "type" : "string",
+      "doc" : "Type inferred from '\"blue\"'"
+    }, {
+      "name" : "name",
+      "type" : "string",
+      "doc" : "Type inferred from '\"Melisa Robles\"'"
+    }, {
+      "name" : "gender",
+      "type" : "string",
+      "doc" : "Type inferred from '\"female\"'"
+    }, {
+      "name" : "company",
+      "type" : "string",
+      "doc" : "Type inferred from '\"NETAGY\"'"
+    }, {
+      "name" : "email",
+      "type" : "string",
+      "doc" : "Type inferred from '\"melisarobles@netagy.com\"'"
+    }, {
+      "name" : "phone",
+      "type" : "string",
+      "doc" : "Type inferred from '\"+1 (941) 566-3099\"'"
+    }, {
+      "name" : "address",
+      "type" : "string",
+      "doc" : "Type inferred from '\"751 Crawford Avenue, Cresaptown, Minnesota, 4118\"'"
+    }, {
+      "name" : "about",
+      "type" : "string",
+      "doc" : "Type inferred from '\"Id cillum sit incididunt esse dolor ipsum est reprehenderit dolore culpa in velit in. Velit nulla nulla mollit irure adipisicing minim. Laboris aute excepteur in officia Lorem exercitation cillum sunt consequat irure tempor qui labore tempor. Deserunt exercitation dolor culpa culpa ea occaecat est sint.\\r\\n\"'"
+    }, {
+      "name" : "registered",
+      "type" : "string",
+      "doc" : "Type inferred from '\"2016-07-24T06:41:10 -06:-30\"'"
+    }, {
+      "name" : "latitude",
+      "type" : "double",
+      "doc" : "Type inferred from '-0.591914'"
+    }, {
+      "name" : "longitude",
+      "type" : "double",
+      "doc" : "Type inferred from '-19.165887'"
+    }, {
+      "name" : "tags",
+      "type" : {
+        "type" : "array",
+        "items" : "string"
+      },
+      "doc" : "Type inferred from '[\"enim\",\"aliqua\",\"culpa\",\"sint\",\"qui\",\"eu\",\"esse\"]'"
+    }, {
+      "name" : "friends",
+      "type" : {
+        "type" : "array",
+        "items" : {
+          "type" : "record",
+          "name" : "friends",
+          "fields" : [ {
+            "name" : "id",
+            "type" : "int",
+            "doc" : "Type inferred from '0'"
+          }, {
+            "name" : "name",
+            "type" : "string",
+            "doc" : "Type inferred from '\"Kelli Chen\"'"
+          } ]
+        }
+      },
+      "doc" : "Type inferred from '[{\"id\":0,\"name\":\"Kelli Chen\"},{\"id\":1,\"name\":\"Diann Acosta\"},{\"id\":2,\"name\":\"Marylou Oneill\"}]'"
+    }, {
+      "name" : "greeting",
+      "type" : "string",
+      "doc" : "Type inferred from '\"Hello, Melisa Robles! You have 10 unread messages.\"'"
+    }, {
+      "name" : "favoriteFruit",
+      "type" : "string",
+      "doc" : "Type inferred from '\"apple\"'"
+    } ]
+  }
+}
